@@ -1,0 +1,17 @@
+{
+    "name": "vulnerable-app",
+    "version": "1.0.0",
+    "description": "A Node.js app with vulnerable dependencies for security testing",
+    "main": "server.js",
+    "dependencies": {
+      "express": "2.5.11",
+      "lodash": "4.17.20",
+      "jquery": "1.6.3",
+      "moment": "2.19.3"
+    },
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "MIT"
+  }
